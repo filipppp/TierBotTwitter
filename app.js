@@ -34,7 +34,7 @@ setInterval(() => T.get("https://api.twitter.com/1.1/statuses/mentions_timeline.
                 let found = false;
                 type.data.forEach(word => {
                     if(!found) {
-                        if (tweet.text.includes(word)) {
+                        if (tweet.text.toUpperCase().includes(word.toUpperCase())) {
                             found = true;
                             T.post('media/upload', {media_data: getRandomPathPic(type.path)}, (error, media) => T.post("https://api.twitter.com/1.1/statuses/update.json", {
                                 in_reply_to_status_id: tweet.id_str,
