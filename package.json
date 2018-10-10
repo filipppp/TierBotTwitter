@@ -1,0 +1,21 @@
+{
+  "name": "tierbottwitter",
+  "version": "1.0.0",
+  "description": "Twitter Animal Pic Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TierBotTwitter"
+  },
+  "keywords": [
+    "Tier"
+  ],
+  "author": "Filip Coja",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
