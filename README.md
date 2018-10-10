@@ -1,3 +1,6 @@
 # Animal Pic Bot for Twitter
-## Simple NodeJS Bot
-### Usage
+## Description
+Basic NodeJS bot for reacting to mentions and answering them with the requested pic.
+## Usage
+To start the bot:
+`node app.js`
