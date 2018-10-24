@@ -8,10 +8,12 @@ Basic NodeJS bot for reacting to mentions and answering them with the requested 
 
 `node app.js`
 
-If you're running it on a linux system:´
+If you're running it on a linux system:
+
 `git clone https://github.com/filipppp/TierBotTwitter.git`
 
 **Make sure you have all dependencies installed**
+
 You can do this by running `npm install`
 
 You can run it afterwards in a screen so it runs all the time.
