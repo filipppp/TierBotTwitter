@@ -29,6 +29,7 @@ T.get("https://api.twitter.com/1.1/statuses/mentions_timeline.json", {count: 1},
 // Whole logic for tweeting images etc.
 setInterval(() => T.get("https://api.twitter.com/1.1/statuses/mentions_timeline.json", {since_id: sinceID}, (err, data) => {
     if(data instanceof Array && data.length !==0) {
+        // Iterate through new Tweets
         data.forEach(tweet => {
             USERDATACONFIG.forEach(type => {
                 let found = false;
